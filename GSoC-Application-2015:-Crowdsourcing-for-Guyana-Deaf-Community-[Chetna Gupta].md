@@ -8,7 +8,7 @@
 
 ***
 ## **Background**
-I am a fourth year Computer Science student at International Institute of Information and Technology, Hyderabad, India. I love to take challenges in various fields. I have worked as Google Summer of Code Intern (2013) for Sympy (Python based Computer Algebra System)[1] and have also worked with YouTube Live team as Google Software Engineering Intern (2014) at Cambridge, USA. <br>During my google internship I came to know about GHC and Anita Borg Insitute. I couldn't be a part of the conference last summer because of prior commitments but I became really interested in the kind of work taken up at Systers, specially because of the impact people bring using this platform. 
+I am a fourth year Computer Science student at International Institute of Information and Technology, Hyderabad, India. I love to take challenges in various fields. I have worked as Google Summer of Code Intern (2013) for Sympy (Python based Computer Algebra System)[1] and have also worked with YouTube Live team as Google Software Engineering Intern (2014) at Cambridge, USA. <br>During my google internship I came to know about GHC and Anita Borg Insitute. I couldn't be a part of the GHC conference last summer because of prior commitments but became really interested in the kind of work taken up at Systers, especially because of the impact people bring using this platform. 
 
 ***
 ## **Skill Set**
