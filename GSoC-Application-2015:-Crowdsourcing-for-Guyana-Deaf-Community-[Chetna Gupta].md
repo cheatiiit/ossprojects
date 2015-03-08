@@ -12,7 +12,7 @@ I am a fourth year Computer Science student at International Institute of Inform
 
 ***
 ## **Skill Set**
-I've done coding in several high-level languages (C, C++, C#, Python, Java); What I like most about Python is the simplicity and readability of the language which allow for what I find to be very elegant programs. I have worked on python based web development softwares like Web2py (MVC Model). I have also started getting acquainted with Django and Ruby on Rails. I got an oppurtunity to build a website with database support for immigration company in php as part of course project.
+I've done coding in several high-level languages (C, C++, C#, Python, Java); What I like most about Python is the simplicity and readability of the language which allow for what I find to be very elegant programs. I have worked on python based web development softwares like Web2py (MVC Model). I have also started getting the knacks of basics of Django and Ruby on Rails. I got an opportunity to build a website with database support for immigration company in php as part of course project.
 
 I have been using git, because of my involvement in the sympy project. I'm still learning the little tricks for the version control. 
 
@@ -21,7 +21,7 @@ I have been using git, because of my involvement in the sympy project. I'm still
 Looking through Ushahidi Project Video[2], I would start with the approach proposed on the lines of Ushahidi Project where PCV onsite will be able to gather data via GPS device or laptop and record information on each location they determine a deaf occupant. This information would be displayed on a web page for PCVs to see and to facilitate the needs of the deaf occupants. Their action would be reported back to Peace Corps.
 
 This solution would then be extended to make the process more user-friendly in the following ways:<br><br>
-_1) Pushing periodic map-notifications when a previously attended occupant might be in need of service again.<br> PCV can set timers for such notifications. For example a deaf school might require new sports equipements after an year, PCV in-charge can set the notification accordingly for another PCV to help the occupant after an year.<br><br>_
+_1) Pushing periodic map-notifications when a previously attended occupant might be in need of service again.<br> PCV can set timers for such notifications. For example a deaf school might require new sports equipments after an year, PCV in-charge can set the notification accordingly for another PCV to help the occupant after an year.<br><br>_
 _2) Letting an onsite PCV know about an already registered deaf occupant who might be in need of service._
 _This system can be made more efficient by choosing a PCV nearest to the occupant based on GPS coordinates(Shortest Path) and allocating him/her the job<br><br>_
 _3) A global map can be provided where occupants are marked in different color based on the status of service facilitated to them, example an action completed might be indicated by green while different shades of red might be used to represent action in progress.<br>_
@@ -31,11 +31,11 @@ _This would not only save time but would make the interface less technical and m
 ## **Details**
 Here are some details for the implementation of the idea. They are subject to change as per the discussion. Following might be the main modules for the project:<br>
 1) _**Login Module:**_ This module would allow Peace Corps and Peace Corps Volunteers to sign in/sign up. PCV's GPS coordinates would be automatically updated whenever they login/logout.<br>
-2) _**Profile Module:**_ This module would support seperate profile pages for Peace Corps and the PCVs.<br>   **PCV:** PCVs would be able to see their personal information and the occupants they have served.<br> 
+2) _**Profile Module:**_ This module would support separate profile pages for Peace Corps and the PCVs.<br>   **PCV:** PCVs would be able to see their personal information and the occupants they have served.<br> 
 **Peace Corps:** Peace Corps would be able to see their personal information and PCVs under them.<br>
 3) _**Action Module:**_ This module would allow PCV to record the details of the deaf occupant and the kind of services to be provided which would be stored in the database.<br>
 4) _**Global Module:**_ This module would show various locations with map-pins, indicating deaf occupants, which can be clicked to checkout the progress of the service provided.<br>
-5) _**Progress Module**_ This module would provide seperate progress pages for PCV and Peace Corps.<br>
+5) _**Progress Module**_ This module would provide separate progress pages for PCV and Peace Corps.<br>
 **PCV**: Status of service provided to the occupant registered by the volunteer. Also he/she would be able to see the already registered occupants who might be in need of service again.<br>
 **Peace Corps**: Occupants to be served by the volunteers under him/her and the occupants already served by his/her volunteers.<br>
 6) _**Add/Remove PCVs Module**_: This module would allow Peace Corps to add or remove PCVs under them.<br>
